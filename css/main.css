@@ -85,7 +85,7 @@ ul > li {
 /* Multiple selection */
 /**********************/
 
-h1, h2 {
+h2, h3 {
     color: blue;
 }
 
@@ -152,3 +152,30 @@ h4 {
     background-color: fuchsia;
     border-radius: 50%;
 }
+
+
+
+h1 {
+    color: red
+}
+
+
+@media (min-width: 600px){
+    h1 {
+        color: orange;
+    }
+
+    h2 {
+        color: green;
+    }
+
+    .banner {
+        width: 100%;
+    }
+} 
+
+@media (min-width: 1200px){
+    .banner {
+        width: 60%;
+    }
+} 
